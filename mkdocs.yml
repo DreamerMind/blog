@@ -1,0 +1,100 @@
+site_name: DreamerMind
+repo_url: https://github.com/DreamerMind/blog
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/DreamerMind/
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/julienbalian
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/julienbalian/
+extra_css:
+  - style.css
+
+markdown_extensions:
+  - admonition
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.progressbar:
+      level_class: true
+
+plugins:
+  - blog:
+      blog_dir: .
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      exclude:
+        - index.md
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  favicon: img/dreamermind.jpg
+  logo: img/dreamermind.jpg
+  font:
+    text: Orbitron
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.footer
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: white
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+
+
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+
+nav:
+  - Home: index.md
