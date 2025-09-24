@@ -1,4 +1,4 @@
-# DreamerMind
+# Blog
 
 <img src="./img/bald_prog.png" />
 <hr />
