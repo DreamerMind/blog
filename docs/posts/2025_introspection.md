@@ -28,7 +28,7 @@ From start-ups of my early days to entrepreneurship, then freelancing and big co
 it's always thrilling to apply cutting edge research from dozen to millions of customer devices.
 
 What a lucky man I am, paid to read scientific articles, implements and improve
-over ideas at the frontier of what is known possible. Moreover doing it in one of
+over ideas at the frontier of what is known possible, in one of
 the hottest field of our time that is deep learning.
 
 The journey have been good to me until now.
