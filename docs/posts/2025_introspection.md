@@ -12,6 +12,8 @@ categories:
 
 # 12 years of 'machine learning' engineering in a blink
 
+  ![clock](/img/clock_time_pass.jpg){ width="100%", loading=lazy}
+
 !!! note
     This article is non technical and personal.
     The reader may not get much out of it as it intends
@@ -19,7 +21,7 @@ categories:
     Making it public is a desired constraint to flesh it out more plainly.
 
 I am a father since two weeks and the priority of my life just changed forever.
-It's time to take a step back and think of my professional career.
+It's time to take a step back and think of what I achieved in this first part of my professional career.
 
 I am amazed by how fast time have passed.
 It has been 12 years already forging machine learning applications as a living.
@@ -33,15 +35,40 @@ the hottest field of our time that is deep learning.
 
 The journey have been good to me until now.
 Along the way I even got opportunity to share some of that joy back to the community,
-by [an article accepted to ICASSP in 2021](https://scholar.google.com/citations?user=tV8RVtcAAAAJ&hl=en&oi=sra),
-a published an open source library [torch-to-nnef](https://github.com/sonos/torch-to-nnef) this year, or regular
-contributions to [tract](github.com/sonos/tract) an open source neural network rust inference engine.
+by [an article on 'small footprint voice identification' accepted to ICASSP in 2021](https://scholar.google.com/citations?user=tV8RVtcAAAAJ&hl=en&oi=sra),
+a published an open source library [torch-to-nnef](https://github.com/sonos/torch-to-nnef) this year aimed as a strong bridge between PyTorch and the Neural Network Exchange Format 'NNEF' ([introduction article here](https://tech-blog.sonos.com/posts/torch-2-nnef-open-sourcing/)), or regular
+contributions to [tract](github.com/sonos/tract) an open source neural network Rust inference engine
+maintained by Sonos.
+I never thought, it would be possible for a simple 'applied' research engineer like me,
+to attend conferences like ICASSP 2021,2022 & Neurips 2023, living these incredible events
+from the inside, seeing and discussing with the authors behind latest advances in
+deep learning, ASR, Large Language models, reinforcement learnings ...
+But also the FOSDEM and EuroPython with peoples of such diverse background and experiences continually
+willing to share and improve technology openly.
+Those people fuelled with passion, eager to share their discoveries to the world,
+made a positive imprint in me and helped shape who I am.
 
 Still I would be lying saying it's have been a perfect honeymoon:
 
-- So many projects, so many urgent features that where of core importance back then.
+So many projects, so many urgent features that where of core importance back then.
 Most, merely useful at some point in time and so few withstanding the test of time.
 Sometime it feels our industry is just an house of card slowly but continually churning.
 Dinosauria we.
 
-As I grow old I am more and more attracted by those public projects that stands still.
+As I grow old I am more and more attracted by the public projects that stands still.
+Here seems to lie the biggest impact for our societies in programming:
+the foundation of most technological project I know of.
+From operating systems, to programming languages, to the library used within a project private or not.
+We build on top of each others one brick at a time.
+Those projects are strange living human construct,
+feeds by the attention of the open crowd, they become so hard to compete
+against once a big community gather around them.
+
+At their core there is always at least few stubborn peoples that will
+maintain and make those evolves beyond reason, mostly because they enjoy playing
+around the problems they framed for themselves.
+
+which is funny given that we are
+
+that create the core value of the product,
+but also a amont of work
