@@ -45,7 +45,8 @@ I am forever thankful to Jerry & Nico the 2 veterans founders for that.
 Their humanity and 'warping' optimism along side a good dose of 'deliver fast' and 'push to prod' made wonders.
 They gave me a chance while they were looking for a seasoned machine learning engineer: a job that was very
 uncommon on the market and I had little to no experience back then.
-I learned a lot here on how to build data pipelines, create models, scale workloads, in service of various business goals.
+I learned a lot here on how to build data pipelines, create models, scale workloads, in service of various business goals, with what most would
+call today traditional (trad) ML.
 
 2y after, I was too comfortable. They switched toward more classical business with less need for data science. I felt it was time
 for me to say good bye and try something new I had dreamed to do since university:
