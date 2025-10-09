@@ -99,7 +99,7 @@ Sometime it feels our industry is just an house of card slowly but continually c
 Dinosauria we.
 
 This background set, I think it's time to think of the future by a reflection of what kind work attract me most.
-In a GIST, the public projects and the research experiments.
+In a Gist: the public projects and the research experiments.
 
 ## 1. The public projects
 
@@ -117,4 +117,12 @@ maintain and make those evolves beyond reason, mostly because they enjoy playing
 around the problems they framed for themselves. Which is funny to think of, we are
 driven by passion to build one of the most 'logical' technology existing today.
 
-## 2. The experiments that challenges status-quo
+## 2. The experiments that challenges the status-quo
+
+.
+
+## Conclusion
+
+As time pass we will see how this article age. The experienced ML practitioner I am can already tell you: it's certainty not a good predictor of the future ;) .
+Still, turning a page, maybe I will be able to refer to it as a good compass of my past self.
+In the meantime let's be assured next articles will be far more technical: doh !
