@@ -39,6 +39,7 @@ the hottest field of our time that is deep learning.
 ## Retrospective
 
 The journey have been good to me until now.
+
 The first startup I worked with was more of a 2nd family, that helped us to grow.
 I am forever thankful to Jerry & Nico the 2 veterans founders for that.
 Their humanity and 'warping' optimism along side a good dose of 'deliver fast' and 'push to prod' make wonders.
@@ -47,13 +48,13 @@ uncommon on the market and I had little to no experience back then.
 I learned a lot here on how to build data pipelines, create models that eventually solve business goals with them.
 
 2y after, I was too confortable. As they switched toward more classical business with less need for data science I felt it was time
-for me to say good bye, and try something new I had dreamed to do for a while.
+for me to say good bye, and try something new I had dreamed to do since university:
 Starting my own company in speech understanding for call-centers. It was a drastic change.
-A far broader skill-set became needed and to be clear I was a clueless beginner in most areas: sales,
-pricing, marketing, front-end product development ... BUT I enjoyed so much testing those new hats !!
+A far broader skill-set became needed and to be clear I was (and still is) a clueless beginner in most areas: sales,
+pricing, marketing, front-end, product development ... BUT I enjoyed so much testing those new hats !!
 This period of my pro-life was extremely exciting, it was incredible to finally set objectives based on my convictions
 to solve big real world problems.
-So many people I shared demo of the product where impressed of what was achieved in such short amount of time,
+So many people I shared demo of the product were impressed of what was achieved in such short amount of time,
 but after almost 2 year of work, loneliness took a profound toll on me.
 That's probably my biggest regret, I failed to gather a proper team around the project:
 In retrospect there were opportunities.
@@ -64,7 +65,7 @@ Another key failure in this adventure, was likely to have spent too much time in
 those I was good at realising.
 Not enough time was allocated to build the core 'value' proposition of the company that was a good 'tailored speech recognition system' for the specific business
 cases I was targeting.
-At first, taking too much time to recognize that external providers speech recognition API weren't good enough and charged too much to build a viable business.
+At first by taking too much time to recognize that external providers speech recognition API weren't good enough and charged too much to build a viable business.
 Later spending too little time training speech models, by lack of focus and too few data gathered for the 'locale'.
 A cardinal sin, that I will try too never forget again.
 
@@ -73,12 +74,11 @@ I landed a permanent job at Parisian startup. It was not the original goal, but 
 They also focused on speech recognition, their end product being a private by design 'voice smart assistant' that could be tailored to client needs and ran fully on a mere Raspi 3.
 It was an opportunity I could not refuse, first because this was the occasion to strengthen my knowledge in deep-learning and speech
 recognition, but also because after so long it was the occasion to meet with people that shared the same passion
-I have: building ML systems and experimenting with cutting edge technologies. Here, I met some really smart people full of energy,
-some became friends. In 2020 the startup was acquired and I felt I still learned so much I could not leave.
-As in the story of all acquisition, people started to slowly leave the boat one at a time, and hiccups in management and
-product release accelerated the process. It's 7y now I work for this company, something I never envisioned.
-Among the numerous things I learnt, one is maybe appart: the process to conduct experimental research with: successive logbook reports, followed by a global advancement report. Is probably the thing that was most alien to me, the first time I did it I felt so illegitimate, and today I can not even think
-do do serious ML research without this process. During this 7y, I also got opportunity to share some of that joy back to the community,
+I have: building ML systems and experimenting with cutting edge technologies. This company was at the opposite spectrum of what I was trying to build before: 50ish peoples gathered from around the world, a product pivot every year, money raised again and again without much paying clients. Here, I met some really smart people full of energy, some became friends and time passed one crazy event at a time. In 2020 the startup was acquired by a big company. I felt I still had to learn so much I could not leave.
+
+Like all acquisitions, big companies attract different talent than startups. People started to slowly leave the boat, one at a time, few hiccups in management and product release accelerated the process. Among the numerous things I learnt in this new era, one is maybe apart: the process to conduct experimental research with successive written logbook reports followed by a global advancement report (something I very much intend to do in this blog from time to time). Is probably the thing that was most alien to me and my 'startup' mindset. The first time I did it I felt so illegitimate. Today I can not even think do do serious ML research without this process. Looking back at projects from 2020 and being able to recover the work realised back then is simply invaluable.
+
+During this last years, I also got opportunity to share some of that joy back to the community,
 by [an article on 'small footprint voice identification' accepted to ICASSP in 2021](https://scholar.google.com/citations?user=tV8RVtcAAAAJ&hl=en&oi=sra),
 a published an open source library [torch-to-nnef](https://github.com/sonos/torch-to-nnef) this year aimed as a strong bridge between PyTorch and the Neural Network Exchange Format 'NNEF' ([introduction article here](https://tech-blog.sonos.com/posts/torch-2-nnef-open-sourcing/)), or regular
 contributions to [tract](github.com/sonos/tract) an open source neural network Rust inference engine
@@ -99,7 +99,7 @@ Most, merely useful at some point in time and so few withstanding the test of ti
 Sometime it feels our industry is just an house of card slowly but continually churning.
 Dinosauria we.
 
-As I grow old I am more and more attracted 2 kind of projects.
+As I grow old I am more and more attracted 2 kind work.
 
 ## 1. The public projects
 
