@@ -118,27 +118,53 @@ maintain and make those evolves beyond reason, mostly because they enjoy playing
 around the problems they framed for themselves. Which is funny to think of, we are
 driven by passion to build one of the most 'logical' technology existing today.
 
-In that respect `torch-to-nnef` is probably my biggest attempt as main author.
-To explain why I take the burden to maintain such project, the defensive
-answer could be to state the value proposition: This is a solution to better exchange our PyTorch models to our tract neural inference engine since 2022.
-Still that does not explain why I 'like' to maintain it.
-If I am being realistic, [ONNX](https://onnx.ai/) could fit the bill if we accepted few limitations here and there (and maybe with time solve those limits).
-Also, the project is too big: bridging 2 libraries that evolve that fast without control on 1 side, is so time consuming.
-We will likely never reach the final goal to be complete general purpose exchange.
-Moreover this 'exchange format' is rather far from my beloved ML formulation and optimization experimentations.
-So, the deeper 'reason' ? This is probably that it help me understand in-depth the linear algebra primitives that compose our deep-learning models.
+### torch-to-nnef
+
+In that respect `torch-to-nnef` is probably my main attempt to contribute.
+
+Why I take the burden to start and maintain such project ? The defensive
+answer could state the value proposition: This is a solution to better exchange our PyTorch models to the [tract](https://github.com/sonos/tract) neural inference engine since 2022.
+Still that does not explain my motives.
+If I am being realistic, [ONNX](https://onnx.ai/) could fit the bill, modulo few limitations here and there (and likely some will shrink with time).
+The project is too big for a single person: bridging 2 libraries that evolve that fast without control on 1 side, is so time consuming:
+ We will likely never reach the final goal to be complete general purpose exchange.
+More importantly, this 'exchange format' project is rather far from my usual beloved ML formulation and optimization experimentations.
+
+So, what's the deeper 'reason' ?
+It may be in part that it help me understand in-depth the linear algebra primitives that compose our deep-learning models.
 How they compose together ? Putting myself in that position allow me to better understand latest neural network architectures.
-It's also an enabler when it come to my 'unusual' quantization attempt, or more recently to export model that does not fit in RAM in full precision.
-Still this project will probably never have a big impact and the attracted community is forever tied to tract, which isn't very significant to begin with.
-Don't get me wrong `torch-to-nnef` open sourcing is a milestone I am happy with, but it's not enough to fulfill
-my thirst to help move our field forward with more innovative projects.
+It's also an enabler when it come to my 'unusual' quantization attempts, performance squeezing, or more recently to export model that does not fit in RAM in full precision.
+Still this project will probably always be 'niche' and the attracted community is tightly tied to tract, which is not very significant to begin with.
+Don't get me wrong `torch-to-nnef` open sourcing is a milestone I am happy with, and I plan to continue to maintain it. This is just not enough to fulfill
+my thirst to help our field move forward with more innovative projects.
 
 ## 2. The experiments that challenges the status-quo
 
-.
+The second technical area I enjoy most is likely *experimentation*. Optimising predictive models toward the final end product goal is so fun.
+From building solid datasets with classical data-science, to challenging our evaluations and metrics, to designing the neural network itself. I
+did all those steps so many time for so many projects.
+
+Selecting latest convincing techniques published, reformulating it to our goal, improving it,
+by validating/discarding hypothesis one at a time, is probably the most thrilling part for me. The critical thinking, the knowledge shared and created around the discussions
+that come after the experimental reports, are wonderful and so fruitful. From my experience, this is what a lot of 'start-up' and short timed project miss,
+this time to explore bring unforeseen opportunities. Without it we are just good copist, greasing an engine and doomed for incremental small improvements.
+
+Yet, it's impressive how subtle our work can be. Optimization is such a slippery beast.
+Do not assume prior work reported is always perfectly handled, final model working is **not** a proof of correctness.
+As a friend of mine would state a good scientist is at first a good engineer: Basics should be reassessed regularly with low ego.
+As an anecdote, I recall vividly a core project one could assume was simple with years of works in: Talented peoples had completely missed to re-set a proper learning rate decay and training time. They did probably not revisit the parameters after some data ingestion. Impact was crazy: this meant all subsequent experiments were non-conclusive (that was couple years of work). Fixing that, in the couple month after few reassessments, we doubled the quality of the model.
+
+In the recent years few core principles stood-out in that area for me: Fast iteration cycles with proper reproducibility and plain reporting are of core importance.
+If validating an hypothesis take more than 2 weeks of training the iteration loop is broken and launching experiments asynchronously is exponentially hard, as the number of experiments grow. Large model training do not escape this rule, each trick allowing faster training is a blessing.
+By example let's imagine you tweak the hyper-parameters A from a baseline then the parameter B and C from same baseline. If A is reactive and C too
+is B+C still leading to improvements ? Guess what, sometime it's can be worse.
+
+Navigating this meta-optimisation process led by the practitioner is never the same. Damn it's hard to avoid hitting local minima.
+Even if with time come intuition of what work, determining the infamous limiting factor of a good baseline is an hide and seek,
+where we are forced to play guesses backed with partial data clues in a hugely complex [POMDP](https://en.wikipedia.org/wiki/Partially_observable_Markov_decision_process). More often than not we only are limited to observe correlation with impossible to confirms causalities, building degrees of trust more than certainty.
 
 ## Conclusion
 
-As time pass we will see how this article age. The experienced ML practitioner I am, can already tell you: it's certainty not a good predictor of the future ;) .
+Opportunities will come. As time pass we will see how this article age. The experienced ML practitioner I am, can already tell you: it's certainty not a good predictor of the future ;) .
 Still, turning a page, maybe I will be able to refer to it as a good compass of my past self.
 In the meantime let's be assured next articles will be far more technical: doh !
