@@ -107,9 +107,9 @@ In a Gist: the public projects and the research experiments.
 The public projects that stands still.
 Here seems to lie the biggest impact for our societies in programming:
 the foundation of most technological project I know of.
-From operating systems, to programming languages, to the library used within a project private or not.
+From  programming languages, to operating systems, to the libraries used within each software private or not.
 We build on top of each others one brick at a time.
-Those projects are strange living human construct,
+Public projects are strange living human construct,
 fed by the attention of the open crowd, it becomes so hard to compete
 against those once a big community gather around them.
 
@@ -118,12 +118,27 @@ maintain and make those evolves beyond reason, mostly because they enjoy playing
 around the problems they framed for themselves. Which is funny to think of, we are
 driven by passion to build one of the most 'logical' technology existing today.
 
+In that respect `torch-to-nnef` is probably my biggest attempt as main author.
+To explain why I take the burden to maintain such project, the defensive
+answer could be to state the value proposition: This is a solution to better exchange our PyTorch models to our tract neural inference engine since 2022.
+Still that does not explain why I 'like' to maintain it.
+If I am being realistic, [ONNX](https://onnx.ai/) could fit the bill if we accepted few limitations here and there (and maybe with time solve those limits).
+Also, the project is too big: bridging 2 libraries that evolve that fast without control on 1 side, is so time consuming.
+We will likely never reach the final goal to be complete general purpose exchange.
+Moreover this 'exchange format' is rather far from my beloved ML formulation and optimization experimentations.
+So, the deeper 'reason' ? This is probably that it help me understand in-depth the linear algebra primitives that compose our deep-learning models.
+How they compose together ? Putting myself in that position allow me to better understand latest neural network architectures.
+It's also an enabler when it come to my 'unusual' quantization attempt, or more recently to export model that does not fit in RAM in full precision.
+Still this project will probably never have a big impact and the attracted community is forever tied to tract, which isn't very significant to begin with.
+Don't get me wrong `torch-to-nnef` open sourcing is a milestone I am happy with, but it's not enough to fulfill
+my thirst to help move our field forward with more innovative projects.
+
 ## 2. The experiments that challenges the status-quo
 
 .
 
 ## Conclusion
 
-As time pass we will see how this article age. The experienced ML practitioner I am can already tell you: it's certainty not a good predictor of the future ;) .
+As time pass we will see how this article age. The experienced ML practitioner I am, can already tell you: it's certainty not a good predictor of the future ;) .
 Still, turning a page, maybe I will be able to refer to it as a good compass of my past self.
 In the meantime let's be assured next articles will be far more technical: doh !
