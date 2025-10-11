@@ -1,5 +1,4 @@
 site_name: DreamerMind
-repo_url: https://github.com/DreamerMind/blog
 extra:
   generator: false
   social:
