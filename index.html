@@ -1,0 +1,859 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="category/introspection/">
+      
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="feed_rss_updated.xml">
+      
+      <link rel="icon" href="img/dreamermind.jpg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>DreamerMind</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Orbitron";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="style.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#blog" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="DreamerMind" class="md-header__button md-logo" aria-label="DreamerMind" data-md-component="logo">
+      
+  <img src="img/dreamermind.jpg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DreamerMind
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Blog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="DreamerMind" class="md-nav__button md-logo" aria-label="DreamerMind" data-md-component="logo">
+      
+  <img src="img/dreamermind.jpg" alt="logo">
+
+    </a>
+    DreamerMind
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+    
+      
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Blog
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Archive
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Archive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="archive/2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Categories
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Categories
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="category/introspection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    introspection
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="category/motives/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    motives
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+  <div class="md-content" data-md-component="content">
+    <div class="md-content__inner">
+      <header class="md-typeset">
+        <h1 id="blog">Blog</h1>
+<p><img src="./img/bald_prog.png#only-light" />
+<img src="./img/bald_prog_light.png#only-dark" /></p>
+<hr />
+
+<p>This <a href="./">personal blog</a> focus on the professional life of a machine learning
+practitioner and programmer, with some spare time experiments,
+thoughts and fun.</p>
+<p>The content is not affiliated to any company,
+all opinions, views and technologies presented here are the responsibility of the author.</p>
+<hr />
+      </header>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2025-10-11 00:00:00+00:00">October 11, 2025</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="category/introspection/" class="md-meta__link">introspection</a>, 
+              <a href="category/motives/" class="md-meta__link">motives</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              10 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="2025-introspection"><a class="toclink" href="2025/10/11/2025-introspection/">2025 introspection</a></h2>
+<!-- markdownlint-disable-file MD001 MD013 MD024 MD025 -->
+
+<h2 id="12-years-of-machine-learning-engineering-in-a-blink"><a class="toclink" href="2025/10/11/2025-introspection/#12-years-of-machine-learning-engineering-in-a-blink">12 years of 'machine learning' engineering in a blink</a></h2>
+<p><img _="," alt="clock" loading="lazy" src="/img/clock_time_pass.jpg" width="100%" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This article is non technical and personal.
+The reader may not get much out of it as it intends
+to help myself shape the next decade of objectives to pursue.
+Making it public is a desired constraint to flesh it out more plainly.</p>
+</div>
+<h3 id="intro"><a class="toclink" href="2025/10/11/2025-introspection/#intro">Intro</a></h3>
+<p>I am a father since 3 weeks and the priority of my life just changed forever.
+It's time to take a step back and think of what I achieved in this first part of
+my professional career.</p>
+<p>I am amazed by how fast time have passed.
+It has been 12 years already forging machine learning applications as a living.</p>
+<p>From start-ups of my early days to entrepreneurship, then freelancing and big company,
+it's always thrilling to apply cutting edge research from a dozen to millions of customer devices.</p>
+<p>What a lucky man I am, paid to read scientific articles, implements and improve
+over ideas at the frontier of what is known possible, in one of
+the hottest field of our time that is deep learning.</p>
+<h3 id="retrospective"><a class="toclink" href="2025/10/11/2025-introspection/#retrospective">Retrospective</a></h3>
+<p>The journey have been good to me until now.</p>
+<p>The first startup I worked with was more of a 2nd family, that helped us to grow.
+I am forever thankful to Jerry &amp; Nico, the 2 veterans founders, for that.
+Their humanity and 'warping' optimism alongside a good dose of 'deliver fast' and 'push to prod' made wonders.
+They gave me a chance while they were looking for a seasoned machine learning engineer: a job that was very
+uncommon on the market and I had little to no experience back then.
+Here, I learned a lot here on how to build data pipelines, create models, scale workloads, in service of various business goals, with what most would
+call today traditional (trad) ML.</p>
+<p>2y after, I was too comfortable. They switched toward more classical business with less need for data science. I felt it was time
+for me to say goodbye and try something new I had dreamed to do since university:
+Starting my own company in speech understanding for call-centers. The core idea was that we need to stop to punish 'operator' and instead cherish the customer
+relationship by a deeper conversational/emotional analysis of customer call. This can be measured and aggregated on global dashboards linked back to all those detailed conversations. It was a drastic change.
+A far broader skill-set became needed and to be clear I was (and still is) a clueless beginner in most areas: sales,
+pricing, marketing, front-end, product development ... I never worked so much BUT damn, I enjoyed testing those new hats !!
+This period of my pro-life was extremely exciting. It was incredible to finally set objectives based on my convictions
+to solve big real world problems.
+So many people I shared a demo of the product were impressed of what was achieved in such short amount of time,
+but after almost 2 year in, things were not yet good enough, and I started to feel drained.
+A key failure in this adventure, was likely to have spent too much time in features creep, on things I was good at realizing.
+Not enough time was allocated to build the hard core 'value' proposition of the company that was: a good adaptive 'tailored speech recognition system' for the clients.
+At the beginning, I took too much time to recognize that external speech recognition API providers weren't good enough and charged too much to build a viable business.
+Later I spent too little time training speech models, by lack of focus and too few data gathered for the 'locale'.
+A cardinal sin, that I will try to never forget again.
+Secondly, Loneliness took a profound toll on me. That's probably my biggest regret, I failed to gather a proper team around the project:
+In retrospect, there were opportunities.
+I was probably too young too introvert and despite my own first clients proposing me to become partners,
+or being approached by a fundraiser to perform a proper 'seed' fund, I declined.
+Postponed forever by thinking wrongly that the kind of project I was working on could be bootstrapped by the first clients subscriptions.</p>
+<p>In 2018, I was out of money and started to look at some freelancing to buy some time. After a market search
+I landed a permanent job at Parisian startup. It was not the original goal, but I thought I would just quit after some time.
+They also focused on speech recognition, their end product being a private by design 'voice smart assistant' that could be tailored to client needs and ran fully on a mere Raspberry-pi 3.
+It was an opportunity I could not refuse, first because this was the occasion to strengthen my knowledge in deep-learning and speech
+recognition, but also because after so long it was the occasion to meet with people that shared the same passion
+I have: building ML systems and experimenting with cutting edge technologies. Funnily, this company was at the opposite spectrum of what I was trying to build before: 50ish peoples gathered from around the world, a product pivot every year, money raised again and again without much paying clients. Different also in that, I met some really smart people full of energy which allowed me to grow again, some became friends and time passed one crazy event at a time. In 2020 the startup was acquired by a big company. I felt I still had to learn so much, I could not leave.</p>
+<p>Like all acquisitions, big companies attract different talents than startups. People started to slowly leave the boat, one at a time, few hiccups in management and product release accelerated the process. Among the numerous things I learnt in this new era, one is maybe apart: the process to conduct experimental research with successive written logbook reports followed by a global advancement report (something I very much intend to do in this blog from time to time). This is probably the thing that was most alien to me and my 'startup' mindset. The first time I did it I felt so illegitimate. The 2nd, that so much time was spent for something ad-hoc. Then it became an habit and today I can not even think do do serious ML research or advanced engineering without this process. Having written material for discussion or looking back at projects from 2020 and being able to recover the work realized back then, is simply invaluable.</p>
+<p>During these last years, beyond working on large language model finetuning and quantization,
+I also got the opportunity to share some of that joy back to the community:
+by <a href="https://scholar.google.com/citations?user=tV8RVtcAAAAJ&amp;hl=en&amp;oi=sra">an article on 'small footprint voice identification' accepted to ICASSP in 2021</a>,
+a published an open source library <a href="https://github.com/sonos/torch-to-nnef">torch-to-nnef</a> this year aimed as a strong bridge between PyTorch and the Neural Network Exchange Format 'NNEF' (<a href="https://tech-blog.sonos.com/posts/torch-2-nnef-open-sourcing/">introduction article here</a>), or regular
+contributions to <a href="github.com/sonos/tract">tract</a> an open source neural network Rust inference engine
+maintained by Sonos.
+I never thought, it would be possible for a simple 'applied' research engineer like me,
+to attend conferences like ICASSP 2021, 2022 &amp; Neurips 2023, living these incredible events
+from the inside, seeing and discussing with the authors behind latest advances in
+deep learning, ASR, Large Language models, reinforcement learning ...
+Meeting people of such diverse background and experiences continually
+willing to share and improve technologies openly to the world,
+made a positive imprint in me and helped me shape who I am.</p>
+<p>The journey was good, still I would be lying saying it's have been a perfect honeymoon:</p>
+<p>So many projects, so many urgent features that were of core importance back then.
+Most, merely useful at some point in time and so few withstanding the test of time.
+Sometimes it feels our industry is just a house of card, slowly but continually churning.
+Dinosauria we.</p>
+<p>This background set, I think it's time to think of the future by a reflection of what kind of work attract me most.
+In a Gist: the public projects and the research experiments.</p>
+<h3 id="1-the-public-projects"><a class="toclink" href="2025/10/11/2025-introspection/#1-the-public-projects">1. The public projects</a></h3>
+<p>The public projects that stands still.
+Here seems to lie the biggest impact for our societies in programming:
+The foundation of most technological project I know of.
+From programming languages, to operating systems, to the libraries used within each software, private or not.
+We build on top of each other's one brick at a time.
+Public projects are a strange living human construct,
+fed by the attention of the open crowd, they become so hard to compete
+against those, once a big community gather around them.</p>
+<p>At their core there is always at least few stubborn peoples that will
+maintain and make those evolve beyond reason, mostly because they enjoy playing
+around the problems they framed for themselves. Which is funny to think of, we are
+driven by passion to build one of the most 'logical' technology existing today.</p>
+<h4 id="torch-to-nnef"><a class="toclink" href="2025/10/11/2025-introspection/#torch-to-nnef">torch-to-nnef</a></h4>
+<p>In that respect, <code>torch-to-nnef</code> is probably my main attempt to contribute.</p>
+<p>Why I take the burden to start and maintain such project ? The defensive
+answer could state the value proposition: This is a solution to better exchange our PyTorch models to the <a href="https://github.com/sonos/tract">tract</a> neural inference engine since 2022.
+Still, that does not explain my motives.
+If I am being realistic, <a href="https://onnx.ai/">ONNX</a> could fit the bill, modulo few limitations here and there (and likely some will shrink with time).
+The project is too big for a single person: bridging 2 libraries that evolve that fast without control on 1 side, is so time-consuming:
+ We will likely never reach the final goal to be a complete general purpose exchange.
+More importantly, this 'exchange format' project is rather far from my usual beloved ML formulation and optimization experimentations.</p>
+<p>So, what's the deeper 'reason' ?
+It may be in part that it help me understand in-depth the linear algebra primitives that compose our deep-learning models.
+How they compose together ? Putting myself in that position allow me to better understand latest neural network architectures.
+It's also an enabler when it comes to my 'unusual' quantization attempts, performance squeezing, or more recently to export a model that does not fit in RAM in full precision.
+Still, this project will probably always be 'niche' and the attracted community is tightly tied to tract, which is not very significant to begin with.
+Don't get me wrong, <code>torch-to-nnef</code> open sourcing is a milestone I am happy with, and I plan to continue to maintain it. This is just not enough to fulfill
+my thirst to help our field move forward with more innovative public projects.</p>
+<h3 id="2-the-experiments-that-challenge-the-status-quo"><a class="toclink" href="2025/10/11/2025-introspection/#2-the-experiments-that-challenge-the-status-quo">2. The experiments that challenge the status-quo</a></h3>
+<p>The second technical area I enjoy most is likely <em>experimentation</em>. Optimizing predictive models toward the final end product goal is so fun.
+From building solid datasets with classical data-science, to challenging our evaluations and metrics, to designing the neural network itself. I
+did all those steps so many times for so many projects.</p>
+<p>Selecting latest convincing techniques published, reformulating it to our goal, improving it,
+by validating/discarding hypothesis one at a time, is probably the most thrilling part for me. The critical thinking, the knowledge shared and created around the discussions
+that come after the experimental reports, are wonderful and so fruitful. From my experience, this is what a lot of 'start-up' and short timed project miss,
+this time to explore bring unforeseen opportunities. Without it we are just good copyist, greasing an engine and doomed for incremental small improvements.</p>
+<p>Yet, it's impressive how subtle our work can be. Optimization is such a slippery beast.
+Do not assume prior work reported is always perfectly handled, final model working is <strong>not</strong> a proof of correctness.
+As a friend of mine would state, a good scientist is at first a good engineer: Basics should be reassessed regularly with low ego.
+I recall vividly a deep learning model that was core to our stack, it had a very simple framing, with years of works in: Talented peoples had completely missed to (re-)set a proper learning rate decay and training time. They did probably not revisit the parameters after some data ingestion. Impact was crazy: this meant all subsequent experiments were non-conclusive (that was a couple of years of work). Fixing that, in the 2 month after few reassessments, we had increased by 70% the quality of the model relative to our baseline.</p>
+<p>In recent years, a few core principles stood-out in that area for me: Fast iteration cycles with proper reproducibility and plain reporting are of core importance.
+If validating a hypothesis take more than 2 weeks of training, the iteration loop is broken and launching experiments asynchronously is not a solution. Indeed, managing in parallel experiments is exponentially hard, as their number grow. Large model training do not escape this rule, each trick allowing faster training is a blessing.
+For example, let's imagine you tweak the hyperparameters A from a baseline then the parameter B and C from the same baseline. If A is reactive and C too
+is B+C still leading to improvements ? Guess what, sometime it's can be worse.</p>
+<p>Navigating this meta-optimization process led by the practitioner is never the same. Damn, it's hard to avoid hitting local minima.
+Even if with time come intuition of what work, determining the infamous limiting factor of a good baseline is a hide and seek,
+where we are forced to play guesses backed with partial data clues in a hugely complex <a href="https://en.wikipedia.org/wiki/Partially_observable_Markov_decision_process">POMDP</a>. More often than not we only are limited to observe correlation with impossible to confirms causalities, building degrees of trust more than certainty.</p>
+<p>This leaves us with the question of what I would like to experiment with, next. Reinforcement-learning is certainly a key area
+on my radar since I read the <a href="http://incompleteideas.net/book/the-book-2nd.html">Sutton &amp; Barto</a> book. I also very much like my recent work focusing
+on compression techniques like quantization and efficiency. On the long term, every piece of technology that allow
+a trained system to be more autonomous and adaptive, feels interesting and intriguing.</p>
+<h3 id="conclusion"><a class="toclink" href="2025/10/11/2025-introspection/#conclusion">Conclusion</a></h3>
+<p>Opportunities will come. As time pass we will see how this article age. The experienced ML practitioner, I am, can already tell you: it's certainty not a good predictor of the future ;) .
+Still, turning a page, maybe I will be able to refer to it as a good compass of my past self.
+In the meantime, let's be assured that the next articles will be far more technical: doh !</p>
+    
+  </div>
+</article>
+      
+      
+        
+          
+
+
+
+<nav class="md-pagination">
+  
+</nav>
+        
+      
+    </div>
+  </div>
+
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <!-- Footer -->
+<footer class="md-footer ">
+
+
+  <!-- Link to previous and/or next page -->
+  
+    
+      
+      <nav
+        class="md-footer__inner md-grid"
+        aria-label="Footer"
+        
+      >
+
+        <!-- Link to previous page -->
+        
+
+        <!-- Link to next page -->
+        
+          
+          <a
+            href="category/introspection/"
+            class="md-footer__link md-footer__link--next"
+            aria-label="Next: introspection"
+          >
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                introspection
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+
+  <div class="container">
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <!-- Further information -->
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+        <a href="/">
+            <img src="./img/dreamermind_logo.png" style="height:32px;margin: 16px;" alt="dreamermind">
+        </a>
+      <div class="md-copyright">
+  
+  
+</div>
+
+      <!-- Social links -->
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/DreamerMind/" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://x.com/julienbalian" target="_blank" rel="noopener" title="x.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M357.2 48h70.6L273.6 224.2 455 464H313L201.7 318.6 74.5 464H3.8l164.9-188.5L-5.2 48h145.6l100.5 132.9zm-24.8 373.8h39.1L119.1 88h-42z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/julienbalian/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": ".", "features": ["content.code.copy", "content.code.annotate", "content.tabs.link", "navigation.footer"], "search": "assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
