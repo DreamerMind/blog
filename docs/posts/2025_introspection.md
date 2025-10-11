@@ -173,4 +173,4 @@ a trained system to be more autonomous and adaptive, feels interesting and intri
 
 Opportunities will come. As time pass we will see how this article age. The experienced ML practitioner, I am, can already tell you: it's certainty not a good predictor of the future ;) .
 Still, turning a page, maybe I will be able to refer to it as a good compass of my past self.
-In the meantime, let's be assured next articles will be far more technical: doh !
+In the meantime, let's be assured that the next articles will be far more technical: doh !
