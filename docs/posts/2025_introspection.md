@@ -1,14 +1,15 @@
 ---
 draft: false
 
-
 date: 2025-10-11
 
-
 categories:
-  - introspection
-  - motives
+
+- introspection
+- motives
+
 ---
+<!-- markdownlint-disable-file MD001 MD013 MD024 MD025 -->
 
 # 12 years of 'machine learning' engineering in a blink
 
