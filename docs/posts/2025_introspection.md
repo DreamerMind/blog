@@ -45,7 +45,7 @@ I am forever thankful to Jerry & Nico the 2 veterans founders for that.
 Their humanity and 'warping' optimism along side a good dose of 'deliver fast' and 'push to prod' made wonders.
 They gave me a chance while they were looking for a seasoned machine learning engineer: a job that was very
 uncommon on the market and I had little to no experience back then.
-I learned a lot here on how to build data pipelines, create models, scale workloads, in service of various business goals, with what most would
+Here, I learned a lot here on how to build data pipelines, create models, scale workloads, in service of various business goals, with what most would
 call today traditional (trad) ML.
 
 2y after, I was too comfortable. They switched toward more classical business with less need for data science. I felt it was time
@@ -54,29 +54,29 @@ Starting my own company in speech understanding for call-centers. The core idea 
 relationship by a deeper conversational/emotional analysis of customer call. This can be measured and aggregated on global dashboards linked back to all those detailed conversations. It was a drastic change.
 A far broader skill-set became needed and to be clear I was (and still is) a clueless beginner in most areas: sales,
 pricing, marketing, front-end, product development ... I never worked so much BUT damn, I enjoyed testing those new hats !!
-This period of my pro-life was extremely exciting, it was incredible to finally set objectives based on my convictions
+This period of my pro-life was extremely exciting. It was incredible to finally set objectives based on my convictions
 to solve big real world problems.
-So many people I shared demo of the product were impressed of what was achieved in such short amount of time,
+So many people I shared a demo of the product were impressed of what was achieved in such short amount of time,
 but after almost 2 year in, things were not yet good enough, and I started to feel drained.
 A key failure in this adventure, was likely to have spent too much time in features creep, on things I was good at realising.
-Not enough time was allocated to build the hard core 'value' proposition of the company that was: a good 'tailored speech recognition system' for the specific business cases I was targeting.
-At first by taking too much time to recognize that external speech recognition API providers weren't good enough and charged too much to build a viable business.
-Later spending too little time training speech models, by lack of focus and too few data gathered for the 'locale'.
+Not enough time was allocated to build the hard core 'value' proposition of the company that was: a good adaptive 'tailored speech recognition system' for the clients.
+At the beginning I took too much time to recognize that external speech recognition API providers weren't good enough and charged too much to build a viable business.
+Later I spent too little time training speech models, by lack of focus and too few data gathered for the 'locale'.
 A cardinal sin, that I will try too never forget again.
 Secondly, Loneliness took a profound toll on me. That's probably my biggest regret, I failed to gather a proper team around the project:
 In retrospect there were opportunities.
 I was probably too young too introvert and despite my own first clients proposing me to become partners,
 or being approached by a fundraiser to perform a proper 'seed' fund, I declined.
-Postponed forever by thinking wrongly that the kind of project I was working on could be bootstrapped by the first clients revenue.
+Postponed forever by thinking wrongly that the kind of project I was working on could be bootstrapped by the first clients subscriptions.
 
 In 2018, I was out of money and started to look at some freelancing to buy some time. After a market search
 I landed a permanent job at Parisian startup. It was not the original goal, but I thought I would just quit after some time.
 They also focused on speech recognition, their end product being a private by design 'voice smart assistant' that could be tailored to client needs and ran fully on a mere Raspi 3.
 It was an opportunity I could not refuse, first because this was the occasion to strengthen my knowledge in deep-learning and speech
 recognition, but also because after so long it was the occasion to meet with people that shared the same passion
-I have: building ML systems and experimenting with cutting edge technologies. Funnily, this company was at the opposite spectrum of what I was trying to build before: 50ish peoples gathered from around the world, a product pivot every year, money raised again and again without much paying clients. Different also in that, I met some really smart people full of energy which allowed me to grow again, some became friends and time passed one crazy event at a time. In 2020 the startup was acquired by a big company. I felt I still had to learn so much I could not leave.
+I have: building ML systems and experimenting with cutting edge technologies. Funnily, this company was at the opposite spectrum of what I was trying to build before: 50ish peoples gathered from around the world, a product pivot every year, money raised again and again without much paying clients. Different also in that, I met some really smart people full of energy which allowed me to grow again, some became friends and time passed one crazy event at a time. In 2020 the startup was acquired by a big company. I felt I still had to learn so much, I could not leave.
 
-Like all acquisitions, big companies attract different talents than startups. People started to slowly leave the boat, one at a time, few hiccups in management and product release accelerated the process. Among the numerous things I learnt in this new era, one is maybe apart: the process to conduct experimental research with successive written logbook reports followed by a global advancement report (something I very much intend to do in this blog from time to time). This is probably the thing that was most alien to me and my 'startup' mindset. The first time I did it I felt so illegitimate. The 2nd so much time spent for something ad-hoc. Then it became an habit and today I can not even think do do serious ML research or advanced engineering without this process. Looking back at projects from 2020 and being able to recover the work realised back then is simply invaluable.
+Like all acquisitions, big companies attract different talents than startups. People started to slowly leave the boat, one at a time, few hiccups in management and product release accelerated the process. Among the numerous things I learnt in this new era, one is maybe apart: the process to conduct experimental research with successive written logbook reports followed by a global advancement report (something I very much intend to do in this blog from time to time). This is probably the thing that was most alien to me and my 'startup' mindset. The first time I did it I felt so illegitimate. The 2nd, that so much time was spent for something ad-hoc. Then it became an habit and today I can not even think do do serious ML research or advanced engineering without this process. Having written material for discussion or looking back at projects from 2020 and being able to recover the work realised back then, is simply invaluable.
 
 During these last years, beyond working on large language model finetuning and quantization,
 I also got opportunity to share some of that joy back to the community:
@@ -90,7 +90,7 @@ from the inside, seeing and discussing with the authors behind latest advances i
 deep learning, ASR, Large Language models, reinforcement learning ...
 Meeting people of such diverse background and experiences continually
 willing to share and improve technologies openly to the world,
-made a positive imprint in me and helped shape who I am.
+made a positive imprint in me and helped me shape who I am.
 
 The journey was good, still I would be lying saying it's have been a perfect honeymoon:
 
@@ -110,7 +110,7 @@ the foundation of most technological project I know of.
 From  programming languages, to operating systems, to the libraries used within each software private or not.
 We build on top of each others one brick at a time.
 Public projects are strange living human construct,
-fed by the attention of the open crowd, it becomes so hard to compete
+fed by the attention of the open crowd, they become so hard to compete
 against those once a big community gather around them.
 
 At their core there is always at least few stubborn peoples that will
@@ -127,7 +127,7 @@ answer could state the value proposition: This is a solution to better exchange 
 Still that does not explain my motives.
 If I am being realistic, [ONNX](https://onnx.ai/) could fit the bill, modulo few limitations here and there (and likely some will shrink with time).
 The project is too big for a single person: bridging 2 libraries that evolve that fast without control on 1 side, is so time consuming:
- We will likely never reach the final goal to be complete general purpose exchange.
+ We will likely never reach the final goal to be a complete general purpose exchange.
 More importantly, this 'exchange format' project is rather far from my usual beloved ML formulation and optimization experimentations.
 
 So, what's the deeper 'reason' ?
@@ -136,7 +136,7 @@ How they compose together ? Putting myself in that position allow me to better u
 It's also an enabler when it come to my 'unusual' quantization attempts, performance squeezing, or more recently to export model that does not fit in RAM in full precision.
 Still this project will probably always be 'niche' and the attracted community is tightly tied to tract, which is not very significant to begin with.
 Don't get me wrong `torch-to-nnef` open sourcing is a milestone I am happy with, and I plan to continue to maintain it. This is just not enough to fulfill
-my thirst to help our field move forward with more innovative projects.
+my thirst to help our field move forward with more innovative public projects.
 
 ## 2. The experiments that challenges the status-quo
 
@@ -152,10 +152,10 @@ this time to explore bring unforeseen opportunities. Without it we are just good
 Yet, it's impressive how subtle our work can be. Optimization is such a slippery beast.
 Do not assume prior work reported is always perfectly handled, final model working is **not** a proof of correctness.
 As a friend of mine would state a good scientist is at first a good engineer: Basics should be reassessed regularly with low ego.
-As an anecdote, I recall vividly a core project one could assume was simple with years of works in: Talented peoples had completely missed to re-set a proper learning rate decay and training time. They did probably not revisit the parameters after some data ingestion. Impact was crazy: this meant all subsequent experiments were non-conclusive (that was couple years of work). Fixing that, in the couple month after few reassessments, we doubled the quality of the model.
+I recall vividly a deep learning model that was core to our stack, it had a very simple framing, with years of works in: Talented peoples had completely missed to (re-)set a proper learning rate decay and training time. They did probably not revisit the parameters after some data ingestion. Impact was crazy: this meant all subsequent experiments were non-conclusive (that was couple years of work). Fixing that, in the 2 month after few reassessments, we had increased by 70% the quality of the model relative to our baseline.
 
 In the recent years few core principles stood-out in that area for me: Fast iteration cycles with proper reproducibility and plain reporting are of core importance.
-If validating an hypothesis take more than 2 weeks of training the iteration loop is broken and launching experiments asynchronously is exponentially hard, as the number of experiments grow. Large model training do not escape this rule, each trick allowing faster training is a blessing.
+If validating an hypothesis take more than 2 weeks of training the iteration loop is broken and launching experiments asynchronously is not a solution. Indeed managing in parallel experiments is exponentially hard, as their number grow. Large model training do not escape this rule, each trick allowing faster training is a blessing.
 By example let's imagine you tweak the hyper-parameters A from a baseline then the parameter B and C from same baseline. If A is reactive and C too
 is B+C still leading to improvements ? Guess what, sometime it's can be worse.
 
@@ -166,7 +166,7 @@ where we are forced to play guesses backed with partial data clues in a hugely c
 This leave us with the question of what I would like to experiment with, next. Reinforcement-learning is certainly a key area
 on my radar since I read the [Sutton & Barto](http://incompleteideas.net/book/the-book-2nd.html) book. I also very much like my recent work focusing
 on compression techniques like quantization and efficiency. On the long term, every piece of technology that allow
-a programmed system to be more autonomous and adaptive, feels interesting and intriguing.
+a trained system to be more autonomous and adaptive, feels interesting and intriguing.
 
 ## Conclusion
 
