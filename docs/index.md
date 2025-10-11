@@ -1,6 +1,7 @@
 # Blog
 
-<img src="./img/bald_prog.png" />
+<img src="./img/bald_prog.png#only-light" />
+<img src="./img/bald_prog_light.png#only-dark" />
 <hr />
 
 This [personal blog](./) focus on the professional life of a machine learning

@@ -1,13 +1,13 @@
 ---
-draft: true
+draft: false
 
 
-date: 2025-10-01
+date: 2025-10-11
 
 
 categories:
   - introspection
-  - motive
+  - motives
 ---
 
 # 12 years of 'machine learning' engineering in a blink
@@ -22,7 +22,7 @@ categories:
 
 ## Intro
 
-I am a father since two weeks and the priority of my life just changed forever.
+I am a father since 3 weeks and the priority of my life just changed forever.
 It's time to take a step back and think of what I achieved in this first part of
 my professional career.
 
