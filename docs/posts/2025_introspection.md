@@ -1,5 +1,6 @@
 ---
 draft: false
+comments: true
 
 date: 2025-10-11
 
@@ -13,7 +14,7 @@ categories:
 
 # 12 years of 'machine learning' engineering in a blink
 
-  ![clock](./img/clock_time_pass.jpg){ width="100%", loading=lazy}
+  ![clock](/img/clock_time_pass.jpg){ width="100%", loading=lazy}
 
 !!! note
     This article is non technical and personal.
