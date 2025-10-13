@@ -169,8 +169,8 @@ Navigating this meta-optimization process led by the practitioner is never the s
 Even if with time come intuition of what work, determining the infamous limiting factor of a good baseline is a hide and seek,
 where we are forced to play guesses backed with partial data clues in a hugely complex [POMDP](https://en.wikipedia.org/wiki/Partially_observable_Markov_decision_process). More often than not we only are limited to observe correlation with impossible to confirms causalities, building degrees of trust more than certainty.
 
-This leaves us with the question of what I would like to experiment with, next. Reinforcement-learning is certainly a key area
-on my radar since I read the [Sutton & Barto](http://incompleteideas.net/book/the-book-2nd.html) book. I also very much like my recent work focusing
+This leaves us with the question of what kind of 'domains' I would like to experiment with, next.
+Reinforcement-learning is certainly a key area on my radar since I read the [Sutton & Barto](http://incompleteideas.net/book/the-book-2nd.html) book. I also very much like my recent work focusing
 on compression techniques like quantization and efficiency. On the long term, every piece of technology that allow
 a trained system to be more autonomous and adaptive, feels interesting and intriguing.
 
