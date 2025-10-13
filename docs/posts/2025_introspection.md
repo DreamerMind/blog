@@ -3,6 +3,11 @@ draft: false
 comments: true
 
 date: 2025-10-11
+title: 12 years of 'machine learning' engineering in a blink
+description: This post is an introspection on my past professional experience in entrepreneurship and Machine learning engineering, to try to better value what to focus on in future work/career decisions processes.
+
+image: /img/clock_time_pass.jpg
+
 
 categories:
 
@@ -37,6 +42,8 @@ it's always thrilling to apply cutting edge research from a dozen to millions of
 What a lucky man I am, paid to read scientific articles, implements and improve
 over ideas at the frontier of what is known possible, in one of
 the hottest field of our time that is deep learning.
+
+This post look at my personal past experience, to try to better value what to focus on in future work/career decisions processes.
 
 ## Retrospective
 
