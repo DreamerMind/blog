@@ -80,7 +80,7 @@ I have: building ML systems and experimenting with cutting edge technologies. Fu
 
 Like all acquisitions, big companies attract different talents than startups. People started to slowly leave the boat, one at a time, few hiccups in management and product release accelerated the process. Among the numerous things I learnt in this new era, one is maybe apart: the process to conduct experimental research with successive written logbook reports followed by a global advancement report (something I very much intend to do in this blog from time to time). This is probably the thing that was most alien to me and my 'startup' mindset. The first time I did it I felt so illegitimate. The 2nd, that so much time was spent for something ad-hoc. Then it became an habit and today I can not even think do do serious ML research or advanced engineering without this process. Having written material for discussion or looking back at projects from 2020 and being able to recover the work realized back then, is simply invaluable.
 
-During these last years, beyond working on large language model finetuning and quantization,
+During these last years, beyond working on large language model fine-tuning and quantization,
 I also got the opportunity to share some of that joy back to the community:
 by [an article on 'small footprint voice identification' accepted to ICASSP in 2021](https://scholar.google.com/citations?user=tV8RVtcAAAAJ&hl=en&oi=sra),
 a published an open source library [torch-to-nnef](https://github.com/sonos/torch-to-nnef) this year aimed as a strong bridge between PyTorch and the Neural Network Exchange Format 'NNEF' ([introduction article here](https://tech-blog.sonos.com/posts/torch-2-nnef-open-sourcing/)), or regular
@@ -156,10 +156,14 @@ Do not assume prior work reported is always perfectly handled, final model worki
 As a friend of mine would state, a good scientist is at first a good engineer: Basics should be reassessed regularly with low ego.
 I recall vividly a deep learning model that was core to our stack, it had a very simple framing, with years of works in: Talented peoples had completely missed to (re-)set a proper learning rate decay and training time. They did probably not revisit the parameters after some data ingestion. Impact was crazy: this meant all subsequent experiments were non-conclusive (that was a couple of years of work). Fixing that, in the 2 month after few reassessments, we had increased by 70% the quality of the model relative to our baseline.
 
-In recent years, a few core principles stood-out in that area for me: Fast iteration cycles with proper reproducibility and plain reporting are of core importance.
-If validating a hypothesis take more than 2 weeks of training, the iteration loop is broken and launching experiments asynchronously is not a solution. Indeed, managing in parallel experiments is exponentially hard, as their number grow. Large model training do not escape this rule, each trick allowing faster training is a blessing.
-For example, let's imagine you tweak the hyperparameters A from a baseline then the parameter B and C from the same baseline. If A is reactive and C too
-is B+C still leading to improvements ? Guess what, sometime it's can be worse.
+In recent years, a few core principles stood-out in that area to keep this kind of work sane.
+Fast iteration cycles with proper reproducibility and plain reporting are of core importance.
+If validating a hypothesis take more than 2 weeks of training, the iteration loop is broken and launching experiments asynchronously is not a solution.
+Indeed, managing in parallel experiments is exponentially hard, as their number grow. This goes beyond 'human' multi-tasking limits.
+For example, let's imagine you tweak the hyper-parameters A from a baseline then the parameter B and C from the same baseline. If A is reactive and C too
+is B+C still leading to improvements ? Guess what, sometime the union can be worsen model quality (or marginalize one benefit).
+Training big models do not escape this pitfall, each trick allowing faster hyper-parameters 'validation' is a blessing,
+by example, in this case a draft on smaller model/fine-tune when possible to validate a first prototype can save a lot of resources.
 
 Navigating this meta-optimization process led by the practitioner is never the same. Damn, it's hard to avoid hitting local minima.
 Even if with time come intuition of what work, determining the infamous limiting factor of a good baseline is a hide and seek,
@@ -172,6 +176,6 @@ a trained system to be more autonomous and adaptive, feels interesting and intri
 
 ## Conclusion
 
-Opportunities will come. As time pass we will see how this article age. The experienced ML practitioner, I am, can already tell you: it's certainty not a good predictor of the future ;) .
+Opportunities will come. As time pass we will see how this article age. The experienced ML practitioner, I am, can already tell you: this post is certainty not a good predictor of the future ;) .
 Still, turning a page, maybe I will be able to refer to it as a good compass of my past self.
 In the meantime, let's be assured that the next articles will be far more technical: doh !
