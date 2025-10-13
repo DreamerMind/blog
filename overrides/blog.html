@@ -1,0 +1,39 @@
+{% extends "main.html" %}
+
+<!-- Page content -->
+{% block container %}
+  <div class="md-content" data-md-component="content">
+    <div class="md-content__inner">
+
+      <!-- Header -->
+      <header class="md-typeset">
+        {{ page.content }}
+      </header>
+
+      <!-- Posts -->
+      {% for post in posts %}
+      <div  class="blog-item">
+      <a href="{{- post.url }}">
+        <h1 class="blog-title">{{- post.title }}</h1>
+        <div class="blog-date">
+        {{- post.config.date.created | date -}}
+        </div>
+        <div class="blog-item-content">
+          <img src="{{- post.meta.image }}"/>
+          <div>
+            {{- post.meta.description }}
+          </div>
+        </div>
+      </a>
+      </div>
+      {% endfor %}
+
+      <!-- Pagination -->
+      {% if pagination %}
+        {% block pagination %}
+          {% include "partials/pagination.html" %}
+        {% endblock %}
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}
