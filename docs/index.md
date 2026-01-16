@@ -4,11 +4,11 @@
 <img src="./img/bald_prog_light.png#only-dark" />
 <hr />
 
-This [personal blog](./) focus on the professional life of a machine learning
-practitioner and programmer, with some spare time experiments,
-thoughts and fun.
+This [personal blog](./) focuses on the professional life of a machine learning
+practitioner and programmer, with some spare-time experiments,
+thoughts, and fun.
 
-The content is not affiliated to any company,
-all opinions, views and technologies presented here are the responsibility of the author.
+The content is not affiliated with any company.
+All opinions, views, and technologies presented here are the sole responsibility of the author.
 
 <hr />
