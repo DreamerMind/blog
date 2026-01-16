@@ -37,13 +37,13 @@ I'm amazed by how fast time has passed.
 It's been 12 years already, forging machine learning applications for a living.
 
 From the start-ups of my early days to entrepreneurship, then freelancing and big companies,
-it's always thrilling to apply cutting-edge research from a dozen to millions of customer devices.
+it's always thrilling to apply cutting-edge research from dozens to millions of customer devices.
 
 What a lucky man I am, paid to read scientific articles, implement and improve upon
 ideas at the frontier of what's known to be possible, in one of
 the hottest fields of our time: deep learning.
 
-This post looks at my personal past experience, to better understand what to focus on in future work and career decisions.
+This post looks at my past experience, to better understand what to focus on in future work and career decisions.
 
 ## Retrospective
 
@@ -68,7 +68,7 @@ to solve big real-world problems.
 So many people I shared a demo with were impressed by what was achieved in such a short amount of time,
 but after almost two years, things were not yet good enough, and I started to feel drained.
 A key failure in this adventure was likely spending too much time on feature creep, on things I was good at building.
-Not enough time was allocated to build the hard-core 'value' proposition of the company: a good, adaptive, tailored speech recognition system for the clients.
+Not enough time was allocated to build the core value proposition of the company: a good, adaptive, tailored speech recognition system for the clients.
 At the beginning, I took too long to recognize that external speech recognition API providers weren't good enough and charged too much to build a viable business.
 Later, I spent too little time training speech models due to lack of focus and too little data gathered for the 'locale'.
 A cardinal sin that I will try never to forget.
@@ -76,25 +76,30 @@ Secondly, loneliness took a profound toll on me. That's probably my biggest regr
 In retrospect, there were opportunities.
 I was probably too young and too introverted, and despite my own first clients proposing that we become partners,
 or being approached by a fundraiser to perform a proper 'seed' round, I declined.
-I postponed it indefinitely, wrongly thinking that the kind of project I was working on could be bootstrapped by the first client subscriptions.
+I postponed it indefinitely, wrongly thinking that the kind of project I was working on could be bootstrapped by first client subscriptions.
 
 In 2018, I was out of money and started looking for freelancing work to buy some time. After a market search,
 I landed a permanent job at a Parisian startup. It was not the original goal, but I thought I would just quit after some time.
 They also focused on speech recognition, their end product being a privacy-by-design 'voice smart assistant' that could be tailored to client needs and ran fully on a mere Raspberry Pi 3.
 It was an opportunity I could not refuse, first because this was the occasion to strengthen my knowledge in deep learning and speech
 recognition, but also because after so long it was the occasion to meet people who shared the same passion
-I have: building ML systems and experimenting with cutting-edge technologies. Funnily, this company was at the opposite end of the spectrum from what I was trying to build before: around 50 people gathered from around the world, a product pivot every year, money raised again and again without many paying clients. It was also different in that I met some really smart, energetic people who allowed me to grow again; some became friends, and time passed one crazy event at a time. In 2020, the startup was acquired by a big company. I felt I still had so much to learn that I could not leave.
+I have: building ML systems and experimenting with cutting-edge technologies.
+Funnily, this company was at the opposite end of the spectrum from what I was trying to build before: around 50 people gathered from around the world, a product pivot every year, money raised again and again without many paying clients.
+I met some really smart, energetic people who allowed me to grow again; some became friends, and time passed one crazy event at a time. In 2020, the startup was acquired by a big company. I felt I still had so much to learn that I could not leave.
 
-Like all acquisitions, big companies attract different talent than startups. People started slowly leaving the boat, one at a time; a few hiccups in management and product releases accelerated the process. Among the numerous things I learned in this new era, one stands apart: the process of conducting experimental research with successive written logbook reports followed by a global advancement report (something I very much intend to do in this blog from time to time). This was probably the thing most alien to me and my 'startup' mindset. The first time I did it, I felt so illegitimate. The second time, I felt that so much time was being spent on something ad hoc. Then it became a habit, and today I cannot even think of doing serious ML research or advanced engineering without this process. Having written material for discussion or looking back at projects from 2020 and being able to recover the work realized back then is simply invaluable.
+Like all acquisitions, big companies attract different talent than startups. People started slowly leaving the boat, one at a time; a few hiccups in management and product releases accelerated the process.
+Among the numerous things I learned in this new era, one stands apart: the process of conducting experimental research with successive written logbook reports followed by a global advancement report (something I very much intend to do in this blog from time to time).
+This was probably the thing most alien to me and my 'startup' mindset. The first time I did it, I felt so illegitimate. The second time, I felt that so much time was being spent on something ad hoc. Then it became a habit, and today I cannot even think of doing serious ML research or advanced engineering without this process.
+Having written material for discussion or looking back at projects from 2020 and being able to recover the work realized back then is simply invaluable.
 
 During these last years, beyond working on large language model fine-tuning and quantization,
 I also got the opportunity to share some of that joy back with the community:
 through [an article on 'small footprint voice identification' accepted to ICASSP in 2021](https://scholar.google.com/citations?user=tV8RVtcAAAAJ&hl=en&oi=sra),
-publishing an open-source library [torch-to-nnef](https://github.com/sonos/torch-to-nnef) this year aimed as a strong bridge between PyTorch and the Neural Network Exchange Format 'NNEF' ([introduction article here](https://tech-blog.sonos.com/posts/torch-2-nnef-open-sourcing/)), and regular
+publishing an open-source library [torch-to-nnef](https://github.com/sonos/torch-to-nnef) this year serving as a strong bridge between PyTorch and the Neural Network Exchange Format 'NNEF' ([introduction article here](https://tech-blog.sonos.com/posts/torch-2-nnef-open-sourcing/)), and regular
 contributions to [tract](github.com/sonos/tract), an open-source neural network Rust inference engine
 maintained by Sonos.
 I never thought it would be possible for a simple 'applied' research engineer like me
-to attend conferences like ICASSP 2021, 2022 & NeurIPS 2023, living these incredible events
+to attend conferences like ICASSP 2021, 2022 & NeurIPS 2023, experiencing these incredible events
 from the inside, seeing and discussing with the authors behind the latest advances in
 deep learning, ASR, large language models, reinforcement learning...
 Meeting people of such diverse backgrounds and experiences, continually
@@ -113,7 +118,7 @@ In a nutshell: public projects and research experiments.
 
 ## 1. The public projects
 
-The public projects that stand still.
+The public projects that stand the test of time.
 Here seems to lie the biggest impact for our societies in programming:
 the foundation of most technological projects I know of.
 From programming languages to operating systems to the libraries used within each software, private or not,
@@ -131,8 +136,8 @@ driven by passion to build one of the most 'logical' technologies existing today
 
 In that respect, `torch-to-nnef` is probably my main attempt to contribute.
 
-Why do I take on the burden of starting and maintaining such a project? The defensive
-answer would state the value proposition: This is a solution to better exchange our PyTorch models with the [tract](https://github.com/sonos/tract) neural inference engine since 2022.
+Why do I take on the burden of starting and maintaining such a project? The safe
+answer would cite the value proposition: This is a solution for better exchanging our PyTorch models with the [tract](https://github.com/sonos/tract) neural inference engine since 2022.
 Still, that does not explain my motives.
 If I'm being realistic, [ONNX](https://onnx.ai/) could fit the bill, aside from a few limitations here and there (and likely some will shrink with time).
 The project is too big for a single person: bridging two libraries that evolve that fast without control on one side is so time-consuming.
@@ -143,11 +148,11 @@ So, what's the deeper 'reason'?
 It may be in part that it helps me understand in-depth the linear algebra primitives that compose our deep-learning models.
 How do they compose together? Putting myself in that position allows me to better understand the latest neural network architectures.
 It's also an enabler when it comes to my 'unusual' quantization attempts, performance squeezing, or more recently, exporting a model that does not fit in RAM in full precision.
-Still, this project will probably always be 'niche,' and the attracted community is tightly tied to tract, which is not very significant to begin with.
+Still, this project will probably always be 'niche,' and the community it attracts is tightly tied to tract, which is not very significant to begin with.
 Don't get me wrong: `torch-to-nnef` open-sourcing is a milestone I'm happy with, and I plan to continue maintaining it. This is just not enough to fulfill
 my thirst to help our field move forward with more innovative public projects.
 
-## 2. The experiments that challenge the status-quo
+## 2. The experiments that challenge the status quo
 
 The second technical area I enjoy most is likely *experimentation*. Optimizing predictive models toward the final end-product goal is so fun.
 From building solid datasets with classical data science to challenging our evaluations and metrics to designing the neural network itself, I've
@@ -155,11 +160,11 @@ done all those steps so many times for so many projects.
 
 Selecting the latest convincing techniques published, reformulating them to our goal, improving them
 by validating or discarding hypotheses one at a time is probably the most thrilling part for me. The critical thinking, the knowledge shared and created around the discussions
-that come after the experimental reports are wonderful and so fruitful. From my experience, this is what a lot of 'start-ups' and short-timed projects miss;
+that come after the experimental reports are wonderful and so fruitful. From my experience, this is what a lot of 'start-ups' and time-constrained projects miss;
 this time to explore brings unforeseen opportunities. Without it, we are just good copyists, greasing an engine and doomed to incremental small improvements.
 
 Yet, it's impressive how subtle our work can be. Optimization is such a slippery beast.
-Do not assume prior work reported is always perfectly handled; a final model working is **not** proof of correctness.
+Do not assume prior work reported is always perfectly handled; a working final model is **not** proof of correctness.
 As a friend of mine would say, a good scientist is first and foremost a good engineer: basics should be reassessed regularly with low ego.
 I vividly recall a deep learning model that was core to our stack. It had very simple framing, with years of work invested. Talented people had completely missed resetting a proper learning rate decay and training time. They probably did not revisit the parameters after some data ingestion. The impact was crazy: this meant all subsequent experiments were non-conclusive (that was a couple of years of work). After fixing that and doing a few reassessments over the following two months, we had increased the quality of the model by 70% relative to our baseline.
 
