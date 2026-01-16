@@ -12,8 +12,8 @@
 
       <!-- Posts -->
       {% for post in posts %}
-      <div  class="blog-item">
       <a href="{{- post.url }}">
+      <div  class="blog-item">
         <h1 class="blog-title">{{- post.title }}</h1>
         <div class="blog-date">
         {{- post.config.date.created | date -}}
@@ -24,8 +24,8 @@
             {{- post.meta.description }}
           </div>
         </div>
-      </a>
       </div>
+      </a>
       {% endfor %}
 
       <!-- Pagination -->
